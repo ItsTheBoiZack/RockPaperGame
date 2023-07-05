@@ -1,5 +1,6 @@
 .Name{
     position: fixed;
+    padding: auto;
     text-align: center;
     font-family: 'Caprasimo', cursive;
     background-color: black;
@@ -73,6 +74,53 @@
 }
 
 .gameDiv{
-    margin-top: 30%;
-    margin-bottom: 30%;
+ 
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    
+   
+   
+    
+   
 }
+
+.logo{
+    font-size: 22;
+    float: left;
+    margin-left: 5%;
+
+}
+
+.Links{
+
+   display: flex;
+    position: absolute;
+    left: 60%;
+    right: 5%;
+    margin-top: 2%;
+    
+    
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    float: right;
+
+
+
+
+}
+
+.Links li{
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
